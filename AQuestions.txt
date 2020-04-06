@@ -1,2 +1,12 @@
 ﻿1. What is stabe vs Unstable sort? (Merge sort is stable, wheras QuickSort/HeapSort isn't)
 2. What is the complexity of algo Start->end path?
+3. Longest Substring with K Distinct Characters (medium)
+	Has the complexity of N+N=>O(N)?
+4. WHy Anagrams finding in sliding windows has complexity of O(N+M)  (where ‘N’ and ‘M’ are the number of characters in the input string and the pattern respectively.)
+https://www.educative.io/courses/grokking-the-coding-interview/xl2g3vxrMq3
+
+5. MinimumWindowSubstring (Understand again)
+https://www.educative.io/courses/grokking-the-coding-interview/xoyL4q6ApNE and https://www.educative.io/courses/grokking-the-coding-interview/xoyL4q6ApNE
+6. The Staircase Problem (Problems)
+7.Minimum jump to reach end
+https://www.youtube.com/watch?v=cETfFsSTGJI&t=151s
