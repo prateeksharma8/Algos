@@ -26,6 +26,7 @@ namespace ConsoleApp1
                     Console.WriteLine(stringBuilder.ToString());
 
                 CompositionBooleans(stringBuilder.ToString(), counter - 1);
+
             }
         }
     }
