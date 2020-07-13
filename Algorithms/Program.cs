@@ -1,6 +1,8 @@
 ﻿using Algorithms._2Pointers;
 using Algorithms.BinarySearch;
 using Algorithms.DynamicProgramming;
+using Algorithms.LinkedList;
+using Algorithms.Maths_Stats;
 using Algorithms.Net;
 using System;
 
@@ -11,7 +13,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            Kaden.Execute();
+            SquareRoot.Execute();
             //MoveZeros.Execute();
             Console.ReadKey();
         }

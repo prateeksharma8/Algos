@@ -7,7 +7,7 @@ namespace Algorithms.LinkedList
     {
         public Node next;
         public Node prev;
-
+        public Node arbitraryPointer;
         public int data;
 
         public Node(int value)
@@ -41,6 +41,20 @@ namespace Algorithms.LinkedList
             Console.WriteLine("Reversing");
             PrintNodes(headNode);
 
+        }
+
+        public static Node Create(int[] arr)
+        {
+            Node head = new Node(arr[0]);
+            Node prev = head;
+            for(int i=1;i<arr.Length;i++)
+            {
+                Node n = new Node(arr[i]);
+                prev.next = n;
+                prev = prev.next;
+
+            }
+            return head;
         }
 
         static void CreateCirclularList(Node last, Node startNode)

@@ -11,6 +11,7 @@ https://www.educative.io/courses/grokking-the-coding-interview/xoyL4q6ApNE and h
 7.Minimum jump to reach end
 https://www.youtube.com/watch?v=cETfFsSTGJI&t=151s
 8. Quick and merge sort
-
+9. https://www.educative.io/courses/coderust-hacking-the-coding-interview/nZwM4
+10. Permutation
 .Net
 1. Read garbage collector
