@@ -13,5 +13,7 @@ https://www.youtube.com/watch?v=cETfFsSTGJI&t=151s
 8. Quick and merge sort
 9. https://www.educative.io/courses/coderust-hacking-the-coding-interview/nZwM4
 10. Permutation
+11.https://www.youtube.com/watch?v=WepWFGxiwRs (Word break problem. Dynamic Programming)
+12. Represent XML to Tree (https://www.educative.io/courses/coderust-hacking-the-coding-interview/lYoXJ)
 .Net
 1. Read garbage collector
