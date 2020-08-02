@@ -5,6 +5,7 @@ using Algorithms.LinkedList;
 using Algorithms.Maths_Stats;
 using Algorithms.Net;
 using Algorithms.Strings;
+using Algorithms.Tree;
 using System;
 
 using System.Linq;
@@ -14,8 +15,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            RegularExpressionCheck.Execute();
-            //MoveZeros.Execute();
+            CountPathRecursive.Execute();
             Console.ReadKey();
         }
 
