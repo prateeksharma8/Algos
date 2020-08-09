@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Algorithms.Tree
+{
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int x)
+        {
+            val = x;
+        }
+    };
+
+    public class MaxHeight
+    {
+        public static int Diameter(TreeNode root)
+        {
+            return MaxDiameter(root);
+        }
+
+        public static int diameter = 0;
+        private static int MaxDiameter(TreeNode currentNode)
+        {
+            if (currentNode == null)
+                return 0;
+
+            int left = MaxDiameter(currentNode.left);
+            int right = MaxDiameter(currentNode.right);
+            diameter = Math.Max(diameter, currentNode.val + left + right);
+            return currentNode.val + Math.Max(left, right);
+        }
+
+        public static void Execute()
+        {
+            TreeNode root = new TreeNode(1);
+            root.left = new TreeNode(2);
+            root.right = new TreeNode(3);
+            root.left.left = new TreeNode(1);
+            root.left.right = new TreeNode(3);
+            root.right.left = new TreeNode(5);
+            root.right.right = new TreeNode(6);
+            root.right.left.left = new TreeNode(7);
+            root.right.left.right = new TreeNode(8);
+            root.right.right.left = new TreeNode(9);
+            Diameter(root);
+            Console.Write("Diameter of Tree: " +diameter );
+        }
+    }
+
+}

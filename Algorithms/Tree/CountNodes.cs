@@ -4,18 +4,6 @@ using System.Text;
 
 namespace Algorithms.Tree
 {
-    public class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x)
-        {
-            val = x;
-        }
-    };
-
     public class CountNodes
     {
         public static int countPaths(TreeNode root)
@@ -29,6 +17,7 @@ namespace Algorithms.Tree
                 return 0;
 
             return 1 + Count(currentNode.left) + Count(currentNode.right);
+
         }
 
         public static void Execute()
