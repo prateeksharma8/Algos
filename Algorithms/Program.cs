@@ -1,6 +1,7 @@
 ﻿using Algorithms._2Pointers;
 using Algorithms.BinarySearch;
 using Algorithms.DynamicProgramming;
+using Algorithms.K_WayMerge;
 using Algorithms.LinkedList;
 using Algorithms.Maths_Stats;
 using Algorithms.Net;
@@ -16,7 +17,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            GenerateParentheses.Execute();
+            CharacterReplacement.Execute();
             Console.ReadKey();
         }
 

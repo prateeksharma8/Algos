@@ -20,7 +20,14 @@ namespace Algorithms
                 int value;
                 char rightChar = str[windowEnd];
                 charFrequencyMap.TryGetValue(rightChar, out value);
-                charFrequencyMap.Add(rightChar, value + 1);
+                if (value == 0)
+                {
+                    charFrequencyMap.Add(rightChar, value + 1);
+                }
+                else
+                {
+                    charFrequencyMap[rightChar]= value + 1;
+                }
                 // shrink the sliding window, until we are left with 'k' distinct characters in the frequency map
                 while (charFrequencyMap.Count > k)
                 {
@@ -46,8 +53,8 @@ namespace Algorithms
         public static void Execute()
         {
            Console.WriteLine("Length of the longest substring: " + LongestSubstringKDistinct.findLength("araaci", 2));
-            Console.WriteLine("Length of the longest substring: " + LongestSubstringKDistinct.findLength("araaci", 1));
-            Console.WriteLine("Length of the longest substring: " + LongestSubstringKDistinct.findLength("cbbebi", 3));
+            //Console.WriteLine("Length of the longest substring: " + LongestSubstringKDistinct.findLength("araaci", 1));
+            //Console.WriteLine("Length of the longest substring: " + LongestSubstringKDistinct.findLength("cbbebi", 3));
         }
 
     }

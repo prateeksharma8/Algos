@@ -1,4 +1,4 @@
-﻿1. What is stabe vs Unstable sort? (Merge sort is stable, wheras QuickSort/HeapSort isn't)
+﻿1. What is stable vs Unstable sort? (Merge sort is stable, wheras QuickSort/HeapSort isn't)
 2. What is the complexity of algo Start->end path?
 3. Longest Substring with K Distinct Characters (medium)
 	Has the complexity of N+N=>O(N)?
@@ -17,3 +17,7 @@ https://www.youtube.com/watch?v=cETfFsSTGJI&t=151s
 12. Represent XML to Tree (https://www.educative.io/courses/coderust-hacking-the-coding-interview/lYoXJ)
 .Net
 1. Read garbage collector
+
+
+Notes:
+1. Binary search: start <end("start == end") and start<=end ("At the end start = end+1")
