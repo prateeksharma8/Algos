@@ -17,7 +17,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            CharacterReplacement.Execute();
+            CircularArrayLoop.Execute();
             Console.ReadKey();
         }
 
