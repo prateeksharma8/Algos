@@ -24,16 +24,16 @@ namespace Algorithms.Tree
             {
                 return sum;
             }
-            else
-            {
-                return SumOfPath(currentNode.left, sum) + SumOfPath(currentNode.right, sum);
-            }
+
+            return SumOfPath(currentNode.left, sum) + SumOfPath(currentNode.right, sum);
+
         }
 
         public static void Execute()
         {
             TreeNode root = new TreeNode(1);
-            root.left = new TreeNode(0);
+            root.left = new TreeNode(2);
+            root.left.right = new TreeNode(4);
             root.right = new TreeNode(1);
             root.left.left = new TreeNode(1);
             root.right.left = new TreeNode(6);

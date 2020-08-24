@@ -17,7 +17,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            CircularArrayLoop.Execute();
+            EvaluateExpression.Execute();
             Console.ReadKey();
         }
 
