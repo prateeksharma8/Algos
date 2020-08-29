@@ -34,7 +34,7 @@ namespace Algorithms.BinarySearch
 
         public static void Execute()
         {
-           Console.WriteLine(RotationCountOfRotatedArray.countRotations(new int[] { 10, 15, 1, 3, 8 }));
+          // Console.WriteLine(RotationCountOfRotatedArray.countRotations(new int[] { 12,13,14,15, 1, 3, 8,9,11 }));
            Console.WriteLine(RotationCountOfRotatedArray.countRotations(new int[] { 4, 5, 7, 9, 10, -1, 2 }));
            Console.WriteLine(RotationCountOfRotatedArray.countRotations(new int[] { 1, 3, 8, 10 }));
         }
