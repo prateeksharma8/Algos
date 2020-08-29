@@ -1,6 +1,7 @@
 ﻿using Algorithms._2Pointers;
 using Algorithms.BinarySearch;
 using Algorithms.DynamicProgramming;
+using Algorithms.DynamicProgramming._0_1_Knapsack;
 using Algorithms.K_WayMerge;
 using Algorithms.LinkedList;
 using Algorithms.Maths_Stats;
@@ -17,7 +18,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            EvaluateExpression.Execute();
+            FindLongestRepeatingSubsequenceLength.Execute();
             Console.ReadKey();
         }
 

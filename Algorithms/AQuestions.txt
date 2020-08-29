@@ -7,15 +7,17 @@ https://www.educative.io/courses/grokking-the-coding-interview/xl2g3vxrMq3
 
 5. MinimumWindowSubstring (Understand again)
 https://www.educative.io/courses/grokking-the-coding-interview/xoyL4q6ApNE and https://www.educative.io/courses/grokking-the-coding-interview/xoyL4q6ApNE
-6. The Staircase Problem (Problems)
-7.Minimum jump to reach end
+
 https://www.youtube.com/watch?v=cETfFsSTGJI&t=151s
 8. Quick and merge sort
 9. https://www.educative.io/courses/coderust-hacking-the-coding-interview/nZwM4
-10. Permutation
+10. Permutation (class TestPermute)
 11.https://www.youtube.com/watch?v=WepWFGxiwRs (Word break problem. Dynamic Programming)
 12. Represent XML to Tree (https://www.educative.io/courses/coderust-hacking-the-coding-interview/lYoXJ)
 .Net
+13. EvaluateExpression (understand recursion)
+14. Stock buy sell
+
 1. Read garbage collector
 
 

@@ -10,7 +10,7 @@ namespace Algorithms
         {
             string str = "ABC";
             char[] charArry = str.ToCharArray();
-            permute(charArry, 0, charArry.Length);
+            permute(charArry, 0);
             Console.ReadKey();
         }
 
@@ -23,16 +23,20 @@ namespace Algorithms
             //Console.WriteLine($"Swapping {a} with {b}");
         }
 
-        static void permute(char[] arry, int i, int n)
+        static void permute(char[] arry, int left)
         {
-            if(i==n)
+            if(left== arry.Length)
                 Console.WriteLine(arry);
 
-           for(int j=i; j<n;j++)
+           for(int j=left; j< arry.Length; j++)
             {
-                swap(ref arry[i],ref arry[j]);
-                permute(arry,i+1,n);
-                swap(ref arry[j], ref arry[i]);
+
+                swap(ref arry[left],ref arry[j]);
+                Console.WriteLine($"j:{j}  left:{left} right:{arry.Length} ");
+                permute(arry,left+1);
+                swap(ref arry[j], ref arry[left]);
+                Console.WriteLine($"BKT j:{j}  left:{left} right:{arry.Length} ");
+
 
             }
         }
