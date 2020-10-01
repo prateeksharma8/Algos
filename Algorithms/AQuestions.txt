@@ -23,3 +23,13 @@ https://www.youtube.com/watch?v=cETfFsSTGJI&t=151s
 
 Notes:
 1. Binary search: start <end("start == end") and start<=end ("At the end start = end+1")
+
+
+1. https://www.educative.io/courses/grokking-the-coding-interview/R8DVgjq78yR
+Longest Substring with Same Letters after Replacement (hard)
+
+2.https://www.educative.io/courses/grokking-the-coding-interview/N0o9QnPLKNv
+Revisit
+3. https://www.educative.io/courses/grokking-the-coding-interview/R87WmWYrELz (Revisit Sets)
+4. Rotated Array (search a number and count rotations)
+https://www.educative.io/courses/grokking-the-coding-interview/R1v4P0R7VZw
