@@ -2,6 +2,7 @@
 using Algorithms.BinarySearch;
 using Algorithms.DynamicProgramming;
 using Algorithms.DynamicProgramming._0_1_Knapsack;
+using Algorithms.Graph;
 using Algorithms.K_WayMerge;
 using Algorithms.LinkedList;
 using Algorithms.Maths_Stats;
@@ -18,7 +19,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            RotationCountOfRotatedArray.Execute();
+            BFSDetectCycle.Execute();
             Console.ReadKey();
         }
 
