@@ -34,3 +34,8 @@ Revisit
 4. Rotated Array (search a number and count rotations)
 https://www.educative.io/courses/grokking-the-coding-interview/R1v4P0R7VZw
 5. https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/ (All graph questions)
+6. https://www.geeksforgeeks.org/minimum-cost-connect-cities/  ( Is actually spanning tree)
+7. Egg Drop dynmaic programming
+8. https://www.educative.io/blog/crack-amazon-coding-interview-questions https://www.geeksforgeeks.org/amazon-interview-questions/ (All questions)
+9. Rotate an Array by N Elements (https://www.educative.io/courses/coderust-hacking-the-coding-interview/lOmmr)
+Reverse the list and then again reverse
