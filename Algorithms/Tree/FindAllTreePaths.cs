@@ -23,10 +23,10 @@ namespace Algorithms.Tree
                 return;
 
             // add the current node to the path
-            currentPath.Add(currentNode.val);
+            currentPath.Add(currentNode.Data);
 
             // if the current node is a leaf and its value is equal to sum, save the current path
-            if (currentNode.val == sum && currentNode.left == null && currentNode.right == null)
+            if (currentNode.Data == sum && currentNode.left == null && currentNode.right == null)
             {
                 allPaths.Add(new List<int>(currentPath));
                 
@@ -34,9 +34,9 @@ namespace Algorithms.Tree
             else
             {
                 // traverse the left sub-tree
-                findPathsRecursive(currentNode.left, sum - currentNode.val, currentPath, allPaths);
+                findPathsRecursive(currentNode.left, sum - currentNode.Data, currentPath, allPaths);
                 // traverse the right sub-tree
-                findPathsRecursive(currentNode.right, sum - currentNode.val, currentPath, allPaths);
+                findPathsRecursive(currentNode.right, sum - currentNode.Data, currentPath, allPaths);
             }
 
             // remove the current node from the path to backtrack, 

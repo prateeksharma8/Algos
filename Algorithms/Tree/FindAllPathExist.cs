@@ -22,7 +22,7 @@ namespace Algorithms.Tree
                 return false;
             }
 
-            if (currentNode.val == sequence[level])
+            if (currentNode.Data == sequence[level])
             {
                 if (level == sequence.Length - 1)
                 {

@@ -19,7 +19,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            NumberValid.Execute();
+            AreTreeIdentical.Execute();
             Console.ReadKey();
         }
 

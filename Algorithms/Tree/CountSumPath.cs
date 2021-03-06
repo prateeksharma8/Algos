@@ -21,13 +21,13 @@ namespace Algorithms.Tree
         {
             if (currentNode == null || sum <= 0) return false;
 
-            lstOfNodes.Add(currentNode.val);
-            if (sum == currentNode.val)
+            lstOfNodes.Add(currentNode.Data);
+            if (sum == currentNode.Data)
             {
                 result.Add(lstOfNodes.Select(x => x).ToList());
             }
-            Count(currentNode.left,  sum - currentNode.val, ref lstOfNodes);
-            Count(currentNode.right,   sum - currentNode.val, ref lstOfNodes);
+            Count(currentNode.left,  sum - currentNode.Data, ref lstOfNodes);
+            Count(currentNode.right,   sum - currentNode.Data, ref lstOfNodes);
             
             lstOfNodes.Remove(lstOfNodes[lstOfNodes.Count - 1]);
             return false;

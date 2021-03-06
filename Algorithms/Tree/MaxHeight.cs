@@ -6,13 +6,13 @@ namespace Algorithms.Tree
 {
     public class TreeNode
     {
-        public int val;
+        public int Data;
         public TreeNode left;
         public TreeNode right;
 
         public TreeNode(int x)
         {
-            val = x;
+            Data = x;
         }
     };
 
@@ -31,8 +31,8 @@ namespace Algorithms.Tree
 
             int left = MaxDiameter(currentNode.left);
             int right = MaxDiameter(currentNode.right);
-            diameter = Math.Max(diameter, currentNode.val + left + right);
-            return currentNode.val + Math.Max(left, right);
+            diameter = Math.Max(diameter, currentNode.Data + left + right);
+            return currentNode.Data + Math.Max(left, right);
         }
 
         public static void Execute()

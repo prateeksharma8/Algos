@@ -19,7 +19,7 @@ namespace Algorithms.Tree
             {
                 return 0;
             }
-            sum = sum * 10 + currentNode.val;
+            sum = sum * 10 + currentNode.Data;
             if (currentNode.left == null && currentNode.right == null)
             {
                 return sum;

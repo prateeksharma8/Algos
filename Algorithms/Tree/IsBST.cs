@@ -28,7 +28,7 @@ namespace Algorithms.Tree
                 }
 
                 /* false if this node violates the min/max constraints */
-                if ((node.right!=null && node.right.val < node.val) || (node.left != null && node.left.val > node.val))
+                if ((node.right!=null && node.right.Data < node.Data) || (node.left != null && node.left.Data > node.Data))
                 {
                     return false;
                 }

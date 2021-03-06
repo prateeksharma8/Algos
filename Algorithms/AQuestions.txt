@@ -39,3 +39,5 @@ https://www.educative.io/courses/grokking-the-coding-interview/R1v4P0R7VZw
 8. https://www.educative.io/blog/crack-amazon-coding-interview-questions https://www.geeksforgeeks.org/amazon-interview-questions/ (All questions)
 9. Rotate an Array by N Elements (https://www.educative.io/courses/coderust-hacking-the-coding-interview/lOmmr)
 Reverse the list and then again reverse
+10. Are tress identical (https://www.educative.io/courses/coderust-hacking-the-coding-interview/mZkl0)
+Little tricky in conditions and Return true/false

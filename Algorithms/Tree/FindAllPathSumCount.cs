@@ -17,7 +17,7 @@ namespace Algorithms.Tree
                 return 0;
 
             // add the current node to the path
-            currentPath.Add(currentNode.val);
+            currentPath.Add(currentNode.Data);
             int pathCount = 0, pathSum = 0;
             // find the sums of all sub-paths in the current path list
             //List<int> pathIterator = currentPath.listIterator(currentPath.Count);
