@@ -19,7 +19,7 @@ namespace Algorithms.Graph
 
             addEdge(adj, 0, 1);
             addEdge(adj, 1, 2);
-            //addEdge(adj, 2, 0);
+            addEdge(adj, 2, 0);
             addEdge(adj, 2, 3);
 
             if (isCyclicDetected(adj, V))

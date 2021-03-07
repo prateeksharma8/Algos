@@ -36,9 +36,19 @@ namespace Algorithms.DynamicProgramming
         public static void Execute()
         {
 
-            int[] coins = { 1, 2, 3 };
+            int[] coins = { 3, 5, 10 };
             int coinsLength = coins.Length;
-            Console.Write(count(coins, coinsLength, 7));
+            Console.WriteLine(count(coins, coinsLength, 3));
+            Console.WriteLine(count(coins, coinsLength, 4));
+            Console.WriteLine(count(coins, coinsLength, 5));
+            Console.WriteLine(count(coins, coinsLength, 6));
+            Console.WriteLine(count(coins, coinsLength, 7));
+            Console.WriteLine(count(coins, coinsLength, 8));
+            Console.WriteLine(count(coins, coinsLength, 9));
+
+            Console.WriteLine(count(coins, coinsLength, 22));
+
+
 
 
         }

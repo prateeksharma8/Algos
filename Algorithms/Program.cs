@@ -19,7 +19,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            AreTreeIdentical.Execute();
+            SumCombinations.Execute();
             Console.ReadKey();
         }
 
