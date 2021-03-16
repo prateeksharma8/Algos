@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Algorithms
 {
-    public static class TestPermute
+    public static class permuteString
     {
         public static void Execute()
         {
-            string str = "ABC";
+            string str = "BAD";
             char[] charArry = str.ToCharArray();
             permute(charArry, 0);
             Console.ReadKey();
@@ -25,19 +25,19 @@ namespace Algorithms
 
         static void permute(char[] arry, int left)
         {
-            if(left== arry.Length)
-                Console.WriteLine(arry);
+            if (left == arry.Length)
+            {
+                Console.WriteLine(string.Join("", arry) + "       Done");
+            }
 
-           for(int j=left; j< arry.Length; j++)
+            for (int j=left; j< arry.Length; j++)
             {
 
                 swap(ref arry[left],ref arry[j]);
-                Console.WriteLine($"j:{j}  left:{left} right:{arry.Length} ");
+                Console.WriteLine($"j:{j}  left:{left}  ");
                 permute(arry,left+1);
                 swap(ref arry[j], ref arry[left]);
-                Console.WriteLine($"BKT j:{j}  left:{left} right:{arry.Length} ");
-
-
+                Console.WriteLine($"BKT j:{j}  left:{left}");
             }
         }
     }

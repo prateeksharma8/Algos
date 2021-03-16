@@ -32,7 +32,7 @@ namespace Algorithms.DynamicProgramming
 
         public static void Execute()
         {
-            //Console.WriteLine(findLPSLength("abdbca"));
+            Console.WriteLine(findLPSLength("abdbca"));
             Console.WriteLine(findLPSLength("cddpd"));
             //Console.WriteLine(findLPSLength("pqr"));
         }

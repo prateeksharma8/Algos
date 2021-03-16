@@ -1,7 +1,6 @@
 ﻿1. What is stable vs Unstable sort? (Merge sort is stable, wheras QuickSort/HeapSort isn't)
 2. What is the complexity of algo Start->end path?
-3. Longest Substring with K Distinct Characters (medium)
-	Has the complexity of N+N=>O(N)?
+
 4. WHy Anagrams finding in sliding windows has complexity of O(N+M)  (where ‘N’ and ‘M’ are the number of characters in the input string and the pattern respectively.)
 https://www.educative.io/courses/grokking-the-coding-interview/xl2g3vxrMq3
 
@@ -11,13 +10,14 @@ https://www.educative.io/courses/grokking-the-coding-interview/xoyL4q6ApNE and h
 https://www.youtube.com/watch?v=cETfFsSTGJI&t=151s
 8. Quick and merge sort
 9. https://www.educative.io/courses/coderust-hacking-the-coding-interview/nZwM4
-10. Permutation (class TestPermute)
+10. Permutation (class PermuteString)
 11.https://www.youtube.com/watch?v=WepWFGxiwRs (Word break problem. Dynamic Programming)
 12. Represent XML to Tree (https://www.educative.io/courses/coderust-hacking-the-coding-interview/lYoXJ)
 .Net
 13. EvaluateExpression (understand recursion)
 14. Stock buy sell
 15.  Heap sort and MaxHeap (complexity)
+16. inorderSuccessorBST (Little tricky) https://www.educative.io/courses/coderust-hacking-the-coding-interview/lOWo5
 1. Read garbage collector
 
 
@@ -31,14 +31,15 @@ Longest Substring with Same Letters after Replacement (hard)
 2.https://www.educative.io/courses/grokking-the-coding-interview/N0o9QnPLKNv
 Revisit
 3. https://www.educative.io/courses/grokking-the-coding-interview/R87WmWYrELz (Revisit Sets)
-4. Rotated Array (search a number and count rotations)
+4. Rotated Array (search a number and count rotations) (Most imp)
 https://www.educative.io/courses/grokking-the-coding-interview/R1v4P0R7VZw
 5. https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/ (All graph questions)
 6. https://www.geeksforgeeks.org/minimum-cost-connect-cities/  ( Is actually spanning tree)
-7. Egg Drop dynmaic programming
+7. Egg Drop dynmaic programming (Listen to Tushar roy video)
 8. https://www.educative.io/blog/crack-amazon-coding-interview-questions https://www.geeksforgeeks.org/amazon-interview-questions/ (All questions)
 9. Rotate an Array by N Elements (https://www.educative.io/courses/coderust-hacking-the-coding-interview/lOmmr)
 Reverse the list and then again reverse
 10. Are tress identical (https://www.educative.io/courses/coderust-hacking-the-coding-interview/mZkl0)
 Little tricky in conditions and Return true/false
 11. Inorder, Preorder and PostOrder (revsit and little tricky)
+12. https://www.educative.io/courses/coderust-hacking-the-coding-interview/mZypr (tricky)

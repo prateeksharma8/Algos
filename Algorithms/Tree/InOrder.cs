@@ -9,7 +9,7 @@ namespace Algorithms.Tree
 
     public class InOrder
     {
-        static void printInorder(TreeNode node)
+        public static void printInorder(TreeNode node)
         {
             if (node == null)
                 return;
@@ -22,6 +22,27 @@ namespace Algorithms.Tree
 
             /* now recur on right child */
             printInorder(node.right);
+
+
+        }
+
+        public static void iterativeInorder(TreeNode root)
+        {
+            Stack<TreeNode> stack = new Stack<TreeNode>();
+            while (stack.Count() > 0 || root != null)
+            {
+                if (root != null)
+                {
+                    stack.Push(root);
+                    root = root.left;
+                    continue;
+                }
+
+
+                TreeNode n = stack.Pop();
+                Console.WriteLine(" " + n.Data);
+                root = n.right;
+            }
         }
 
 
@@ -39,6 +60,8 @@ namespace Algorithms.Tree
 
 
             printInorder(root);
+            Console.WriteLine("iterativeInorder");
+            iterativeInorder(root);
         }
     }
 

@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Algorithms
 {
-    public static class MissingNumber
+    public static class AllMissingNumbers
     {
 
-        public static int findMissingNumber(int[] nums)
+        public static void findMissingNumber(int[] nums)
         {
             int i = 0;
             while (i < nums.Length)
@@ -17,7 +17,7 @@ namespace Algorithms
                 //else
                 //    i++;
 
-                if (nums[i] > i || nums[i] == i)
+                if (nums[i] ==nums[nums[i]] || nums[i] == i)
                     i++;
                 else
                     swap(nums, i, nums[i]);
@@ -25,11 +25,13 @@ namespace Algorithms
             }
 
             // find the first number missing from its index, that will be our required number
+            Program.PrintArrays(nums);
+            Console.WriteLine("");
             for (i = 0; i < nums.Length; i++)
-                if (nums[i] != i)
-                    return i;
+             
+            if (nums[i] != i)
+                    Console.Write( i +",");
 
-            return nums.Length;
         }
 
         private static void swap(int[] arr, int i, int j)
@@ -41,11 +43,10 @@ namespace Algorithms
 
         public static void Execute()
         {
-            Console.WriteLine("4, 0, 3, 1");
-            Console.WriteLine(MissingNumber.findMissingNumber(new int[] { 4, 0, 3, 1 }));
+            Console.WriteLine("2,3,1,7,2,3,5,0");
+            findMissingNumber(new int[] { 2,3,1, 7, 2, 3, 5, 0 });
 
-            Console.WriteLine("8, 3, 5, 2, 4, 6, 0, 1");
-            Console.WriteLine(MissingNumber.findMissingNumber(new int[] { 8, 3, 5, 2, 4, 6, 0, 1 }));
+           
         }
     }
 }

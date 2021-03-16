@@ -34,6 +34,8 @@ namespace Algorithms.DynamicProgramming
             //Console.WriteLine(findLRSLength("tomorrow"));
             //Console.WriteLine(findLRSLength("aabdbcec"));
             Console.WriteLine(findLRSLength("fmff"));
+            Console.WriteLine(findLRSLength("abdbca"));
+
         }
     }
 }

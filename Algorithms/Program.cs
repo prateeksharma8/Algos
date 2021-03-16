@@ -1,4 +1,5 @@
 ﻿using Algorithms._2Pointers;
+using Algorithms.Backtracking;
 using Algorithms.BinarySearch;
 using Algorithms.DynamicProgramming;
 using Algorithms.DynamicProgramming._0_1_Knapsack;
@@ -19,13 +20,15 @@ namespace Algorithms
     {
         public static void Main()
         {
-            SumCombinations.Execute();
+            PhoneLetterCombinations.Execute();
             Console.ReadKey();
         }
 
         public static void PrintArrays(int[] arr)
         {
             Array.ForEach(arr, element => Console.Write($" {element.ToString()}"));
+            Console.WriteLine();
+
         }
 
         public static void PrintArrays<T>(List<T> arr)

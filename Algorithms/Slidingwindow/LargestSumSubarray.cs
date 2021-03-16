@@ -18,9 +18,9 @@ namespace Algorithms
             for (int i = 1; i < A.Length; ++i)
             {
 
-                if (A[i] < 0)
+                if (currMax < 0)
                 {
-                    currMax = 0;
+                    currMax = A[i];
                 }
                 else
                 {
@@ -38,6 +38,8 @@ namespace Algorithms
 
         public static void Execute()
         {
+            Console.WriteLine("Sum of largest subarray: " + findMaxSumSubArray(new int[] { 50, -1, 30, 1, 2, 3, 6, -5, 1 }));
+
             Console.WriteLine("Sum of largest subarray: "+ findMaxSumSubArray( new int[] { -4, 2, -5, 1, 2, 3, 6, -5, 1 }));
             Console.WriteLine("Sum of largest subarray:  " + findMaxSumSubArray(new int[] { 2, 3, 4, 1, 5 }));
         }
